@@ -1,0 +1,21 @@
+{
+  "name": "vue-todo",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vuedx-typecheck . && vite build"
+  },
+  "dependencies": {
+    "vue": "^3.0.4",
+    "vue-multiselect": "^3.0.0-alpha.2",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.4",
+    "@vuedx/typecheck": "^0.3.1-insiders-1606311019.0",
+    "@vuedx/typescript-plugin-vue": "^0.3.1-insiders-1606311019.0",
+    "sass": "^1.32.12",
+    "typescript": "^4.1.2",
+    "vite": "^1.0.0-rc.13"
+  }
+}
